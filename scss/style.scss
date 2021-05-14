@@ -1,0 +1,13 @@
+$veryDarkBlue: hsl(233, 47%, 7%);
+$darkDesaturatedBlue: hsl(244, 38%, 16%);
+$softViolet: hsl(277, 64%, 61%);
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        font-size: 15px;
+        font-weight: 700;
+    }
+}
