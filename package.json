@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile-scss": "node-sass -w ./scss/ -o ./dist/css/ --output-style compressed",
     "copy-file": "copyfiles index.html ./images/*.{png,jpg} ./dist",
-    "build": "npm run compile-scss & npm run copy-file"
+    "build": "npm run compile-scss & npm run copy-file",
+    "vercel-deploy": "npm run copy-file"
   },
   "author": "",
   "license": "ISC",
