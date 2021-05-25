@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "copyfiles": "^2.4.1",
+    "node-gyp": "^8.0.0",
     "node-sass": "^6.0.0"
   }
 }
